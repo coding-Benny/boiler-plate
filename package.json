@@ -1,5 +1,5 @@
 {
-  "name": "boiler-plate",
+  "name": "node-react-basic",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/coding-Benny/boiler-plate.git"
+    "url": "git+https://github.com/coding-Benny/node-react-basic.git"
   },
   "author": "coding-Benny",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/coding-Benny/boiler-plate/issues"
+    "url": "https://github.com/coding-Benny/node-react-basic/issues"
   },
-  "homepage": "https://github.com/coding-Benny/boiler-plate#readme",
+  "homepage": "https://github.com/coding-Benny/node-react-basic#readme",
   "dependencies": {
     "express": "^4.17.1"
   }
