@@ -24,13 +24,13 @@ const userSchema = mongoose.Schema({
     },
     image: String,
     token: {
-        type: toString
+        type: String
     },
     tokenExp: {
         type: Number
     }
 })
 
-const user = mongoose.model('User', userSchema)
+const User = mongoose.model('User', userSchema)
 
 module.exports = { User }
