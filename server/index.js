@@ -4,8 +4,8 @@ const port = 5000
 const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
 const config = require('./config/key');
-const { auth } = require('../middleware/auth');
-const { User } = require("../models/User");
+const { auth } = require('./middleware/auth');
+const { User } = require("./models/User");
 
 // application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -22,6 +22,10 @@ mongoose.connect(config.mongoURI, {
 
 app.get('/', (req, res) => {
   res.send('Hello World!')
+})
+
+app.get('/api/hello', (req, res) => {
+  res.send("안녕하세요~")
 })
 
 app.post('/api/users/register', (req, res) => {
